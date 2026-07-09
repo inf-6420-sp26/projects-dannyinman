@@ -1,0 +1,174 @@
+!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback — The Films of Billy Wilder</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+ 
+<body>
+
+    <!--Header and Navigation-->
+
+      <header>
+    <nav>
+      <span class="nav-logo">Billy <span>Wilder</span></span>
+      <ul class="nav-links">
+        <li><a href="index.html">Guide</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="feedback.html" class="active">Feedback</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--Page Hero Text-->
+  <section class="page-hero">
+    <h1>Feedback and Contact</h1>
+    <p>Have a question, a recommendation, or a favorite 
+        Wilder film to share? We'd love to hear from you.
+    Not really - I am busy, this is not an active fan site.
+    Any responses will be subject to my onerous data scrapping
+    policy: 
+    <br><strong> You will not like it.</strong>
+    </p>
+  </section>
+
+  <!--Main Page Content-->
+
+    <main class="page-wrapper">
+ 
+    <div class="form-wrapper">
+ 
+      <p>
+        Fill out the form below and we will get back to you as soon as possible. 
+        Fields marked with an asterisk (<abbr title="required">*</abbr>) are required.
+      </p>
+
+      <!--Form-->
+
+      <form action="#" method="post">
+        <fieldset>
+            <legend>Your Details</legend>
+            <div class="form-group">
+                <label for="full-name">Full Name*</label>
+                <input type="text"
+                id="full-name"
+                name="user_name"
+                placeholder="Your Name"
+                required>
+            </div>
+
+            <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input
+              type="email"
+              id="email"
+              name="user_email"
+              placeholder="jane@example.com"
+              required>
+        </fieldset>
+      </form>
+
+      <!--Dropdown-->
+
+      <fieldset>
+        <legend>Your Experience</legend>
+
+        <div class="form-group">
+            <label for="favorite-film">What is your favorite
+                Billy Wilder Film?</label>
+
+                            <select id="favorite-film" name="favorite_film">
+              <option value="" disabled selected>Select a film...</option>
+              <option value="double-indemnity">Double Indemnity (1944)</option>
+              <option value="lost-weekend">The Lost Weekend (1945)</option>
+              <option value="sunset-boulevard">Sunset Boulevard (1950)</option>
+              <option value="ace-in-the-hole">Ace in the Hole (1951)</option>
+              <option value="stalag-17">Stalag 17 (1953)</option>
+              <option value="sabrina">Sabrina (1954)</option>
+              <option value="witness-for-the-prosecution">Witness for the Prosecution (1957)</option>
+              <option value="some-like-it-hot">Some Like It Hot (1959)</option>
+              <option value="the-apartment">The Apartment (1960)</option>
+              <option value="other">Other</option>
+            </select>
+               <div class="form-group">
+            <fieldset class="nested-fieldset">
+              <legend>How did you find this site?</legend>
+              <div class="radio-group">
+                <div>
+                  <input type="radio" id="search" name="referral" value="search">
+                  <label for="search">Web search</label>
+                </div>
+                <div>
+                  <input type="radio" id="social" name="referral" value="social">
+                  <label for="social">Social media</label>
+                </div>
+                <div>
+                  <input type="radio" id="friend" name="referral" value="friend">
+                  <label for="friend">A friend recommended it</label>
+                </div>
+                <div>
+                  <input type="radio" id="other-referral" name="referral" value="other">
+                  <label for="other-referral">Other</label>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+        </fieldset>
+
+        <!--Message-->
+                <fieldset>
+          <legend>Your Message</legend>
+ 
+          <!-- Textarea -->
+          <div class="form-group">
+            <label for="message">Message or Question *</label>
+            <textarea
+              id="message"
+              name="user_message"
+              rows="6"
+              placeholder="Share your thoughts, ask a question, or recommend a film..."
+              required></textarea>
+          </div>
+ 
+          <!-- Checkbox -->
+          <div class="form-group">
+            <div class="checkbox-group">
+              <div>
+                <input type="checkbox" id="consent" name="consent" value="yes">
+                <label for="consent">I am happy to be contacted by email in response to my message.</label>
+              </div>
+            </div>
+          </div>
+ 
+        </fieldset>
+ 
+        <!-- Submit Button -->
+        <div class="form-actions">
+          <button type="submit" class="btn-submit">Send Message</button>
+        </div>
+ 
+      </form>
+ 
+    </div>
+ 
+  </main>
+
+  <!--Footer-->
+<footer>
+  <p> Copyright 2026 by no one, who needs to copyright this site? 
+        It all came from IMDB and Wikipedia.</p>
+</footer>
+
+
+</body>
+</html>
+
+ 
+
+
+
+
+
