@@ -117,7 +117,14 @@ nav {
     padding: 0 1.5rem;
 }
 
-.nav-logo span{
+.nav-logo {
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    color: var(--color-white);
+    letter-spacing: 0.02em;
+}
+
+.accent {
     color: var(--color-accent);
 }
 
