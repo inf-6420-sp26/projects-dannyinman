@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video One</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Video Gallery</h1>
+            <nav>
+                <a href="index.html">Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <!--Main Content-->
+    <main>
+        <div class="container">
+            <article>
+                <h2>Video One</h2>
+
+                <video class="main-video" controls poster="assets/images/video-1-frame1.jpg" width="800">
+                    <source src="assets/videos/video-1.mp4" type="video/mp4">
+                    <track src="assets/captions/video-1.vtt" kind="captions" srclang="en" label="English" default>
+                    Your browser does not support the video element.
+                    <a href="assets/videos/video-1.mp4">Download the video</a> to watch it.
+                </video>
+
+                <section>
+                    <h3>About this video</h3>
+                    <p>
+                        This video was recorded in 1999 at Oswald's Bear Ranch in Newberry, Michigan. A young Danny Inman was bored out of his mind
+                        after being dragged there from a vacation in Petoskey - a full 4.5 hours away. This was the one active bear in the whole place.
+                        Danny has never recovered from the boredom.  
+                    </p>
+                </section>
+
+                <!--Comments-->
+                <section>
+                    <h3>Comments</h3>
+
+                    <div class="comment">
+                        <img class="comment-avatar" src="assets/images/avatar-1.svg" alt="" width="48" height="48">
+                        <div class="comment-text">
+                            <h4 class="comment-author">Oswald (not a bear)</h4>
+                            <p>Poor Danny, I knew he had a bad time. He told me about it.</p>
+                        </div>
+                    </div>
+
+                    <div class="comment">
+                        <img class="comment-avatar" src="assets/images/avatar-2.svg" alt="" width="48" height="48">
+                        <div class="comment-text">
+                            <h4 class="comment-author">Bear (not Oswald)</h4>
+                            <p>I was hoping to see a man get ripped apart by a bear.</p>
+                        </div>
+                    </div>
+
+                    <div class="comment">
+                        <img class="comment-avatar" src="assets/images/avatar-3.svg" alt="" width="48" height="48">
+                        <div class="comment-text">
+                            <h4 class="comment-author">Redditor42069</h4>
+                            <p>How dare you attack the hard working people in Newberry. There is a women's prison there, and I work there 15 hours a day.</p>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Generic Video Gallery LLC: Next step YouTube!</p>
+        </div>
+    </footer>
+</body>
+
+</html>
